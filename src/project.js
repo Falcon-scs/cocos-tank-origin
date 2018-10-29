@@ -17103,9 +17103,9 @@ require = function r(a, s, c) {
         }(cc.Component);
         i.default = a, cc._RF.pop();
     }, {} ],
-    StartScene: [ function(e, t, i) {
+    StartScene: [ function(require, module, exports) {
         "use strict";
-        cc._RF.push(t, "c1beeYLlepC0YpTxMsdZidy", "StartScene"), window.Level = 0, window.highLevel = 1, 
+        cc._RF.push(module, "c1beeYLlepC0YpTxMsdZidy", "StartScene"), window.Level = 0, window.highLevel = 1, 
         window.highScore = [], window.mostStage = 90, window.isLock = "true", window.needDeblockLevel = -1, 
         window.deblockingLevels = [], window.shareModel = 0, window.shareModels = {
             unlockLevel: 0,
